@@ -1,6 +1,43 @@
 .box1 {
-  display: none;
   background-color: #FF0000;
   height: 200px;
   width: 200px;
+  border: 1px solid;
+  box-shadow: 10px 10px 15px -10px;
+  cursor: pointer;
+}
+
+.box1-ext {
+  border: 10px solid black;
+}
+
+.box1-click {
+  background-color:  #0000FF;
+}
+
+p {
+  display: inline;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted #0e6edf;
+}
+
+span{
+  cursor: pointer;
+}
+
+span:hover {
+  opacity: .5;
+}
+
+textarea {
+  margin: 50px;
+}
+
+input {
+  margin-top: 20px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: red;
 }
