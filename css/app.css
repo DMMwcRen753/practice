@@ -1,8 +1,8 @@
 .box1 {
-  background-color: #FF0000;
+  background-color: #FFFFFF;
   height: 200px;
   width: 200px;
-  border: 1px solid;
+  float: left;
   box-shadow: 10px 10px 15px -10px;
   cursor: pointer;
 }
@@ -15,6 +15,19 @@
   background-color:  #0000FF;
 }
 
+.bg1 {
+  background-color: #FFAAAA;
+}
+
+.bg2 {
+  background-color: #FFBBBB;
+}
+.bg3 {
+  background-color: #FFCCCC;
+}
+.bg4 {
+  background-color: #FFDDDD;
+}
 p {
   display: inline;
   padding-bottom: 8px;
