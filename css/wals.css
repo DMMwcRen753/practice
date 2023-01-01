@@ -144,6 +144,99 @@ a {
   background-image: url(../img/webcamp-mother.png);
 }
 
+.strength-group {
+  display: flex;
+  width:980px;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.strength {
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.strength-title {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.strength-text {
+  text-align: left;
+  font-size: 16px;
+}
+
+#profile {
+  background-color: #ECEFF1;
+}
+
+.profile-group {
+  display: flex;
+  padding: 30px 0 90px 0;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.myface {
+  background-image: url(../img/my-icon.jpg);
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.description-title:first-child {
+  margin-top: 0;
+}
+
+.description-title {
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+
+.description-text {
+  font-size: 16px;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.contact-group {
+  width: 800px;
+  display:  flex;
+  padding: 30px 0 90px 0;
+  margin: 0 auto;
+}
+
+.left-contact-content {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.link-text {
+  text-decoration: underline;
+  color: #212121;
+}
+
+.right-contact-content {
+  width: 170px;
+  margin: 0 auto;
+}
+
+.right-contact-content .fa {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-contact-content .fa:last-child {
+  margin-right: 0;
+}
+
 footer {
   height: 60px;
   width: 100%;
