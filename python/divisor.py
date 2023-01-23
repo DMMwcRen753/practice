@@ -1,3 +1,4 @@
+#約数を全て求めリスト化
 num = int(input())
 def divisors_list_s(num):
     divisors = []

@@ -1,3 +1,4 @@
+#最大公約数
 import math
 
 a = int(input())

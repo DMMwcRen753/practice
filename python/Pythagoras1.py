@@ -1,3 +1,5 @@
+#三平方の定理の計算
+
 import math
 
 a = int(input())

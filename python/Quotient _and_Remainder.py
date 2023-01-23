@@ -1,3 +1,5 @@
+#商と余りの計算
+
 xp = int(input())
 y = int(input())
 

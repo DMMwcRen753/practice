@@ -1,3 +1,5 @@
+#素因数分解
+
 num = int(input())
 
 def prime_f_list(num):

@@ -1,3 +1,5 @@
+#素数の数をすべて求める
+
 limit = int(input())
 
 def prime(limit):

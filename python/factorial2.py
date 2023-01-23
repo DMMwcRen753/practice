@@ -1,3 +1,5 @@
+#forループで二重階乗を計算する
+
 def factorial2_while(num):
     val = 1
     while num > 0:

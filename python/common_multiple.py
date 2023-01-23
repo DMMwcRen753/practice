@@ -1,3 +1,4 @@
+#最小公倍数
 import math
 a = int(input())
 b = int(input())

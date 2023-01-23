@@ -1,3 +1,5 @@
+#再帰関数を使い自然数の階乗を計算する
+
 num = int(input())
 
 def factorial_recursive(num):

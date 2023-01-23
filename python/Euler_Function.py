@@ -1,3 +1,5 @@
+#オイラー関数
+
 import math
 
 num = int(input())
