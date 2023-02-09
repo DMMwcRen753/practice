@@ -1,3 +1,5 @@
-<?php echo "Good morning"."\n"; ?>
-<?php echo "Good afternoon"."\n"; ?>
-<?php echo "Good evening"."\n"; ?>
+<?php
+    echo "Good morning"."\n";
+    echo "Good afternoon"."\n";
+    echo "Good evening"."\n";
+?>
