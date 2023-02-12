@@ -1,4 +1,3 @@
-
 function hanoi(n, a, b, c) {
   if (n>1) {
     hanoi(n-1,a,c,b);
