@@ -1,6 +1,6 @@
-package classMethod.Human;
+package classMethod.human;
 
-public clas Human02 {
+public class Human02 {
     public String name;
     public int age;
     
@@ -10,7 +10,7 @@ public clas Human02 {
     }
     
     public Human02(String name, int age){
-        this.name = "佐藤";
-        this.age = 24;
+        this.name = name;
+        this.age = age;
     }
 }
