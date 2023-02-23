@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch StuSample8",
+      "request": "launch",
+      "mainClass": "StuSample8",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
       "name": "Launch ClassMethod02",
       "request": "launch",
       "mainClass": "classMethod.ClassMethod02",
