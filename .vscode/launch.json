@@ -5,6 +5,13 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Launch Greeting",
+      "request": "launch",
+      "mainClass": "Greeting",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
       "name": "Python: 現在のファイル",
       "type": "python",
       "request": "launch",
