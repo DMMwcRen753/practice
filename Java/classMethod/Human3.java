@@ -1,4 +1,3 @@
-package classMethod.human;
 
 public class Human3 {
   public String name;
@@ -8,7 +7,7 @@ public class Human3 {
   public Human3() {
     this.name = "山田";
     this.age = 20;
-    this.profession = "プログラマー";
+    this.profession = "programer";
   }
 
   public String getprofile() {
