@@ -1,3 +1,4 @@
+
 public class Chapter9 {
   public static void main(String[] args) {
     double fuelCost = 12.5;

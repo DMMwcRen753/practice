@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Chapter9",
+      "request": "launch",
+      "mainClass": "Chapter9",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
       "name": "Launch Break01",
       "request": "launch",
       "mainClass": "Java.Break01",

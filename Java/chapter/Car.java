@@ -1,4 +1,3 @@
-package Java.chapter;
 
 public class Car {
   private double fuelCost;
