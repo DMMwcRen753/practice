@@ -7,6 +7,6 @@ public class Chapter9 {
     Car car = new Car(fuelCost, fuelAmount);
 
     car.move(20);
-    System.out.println("残量は" + Car.getFuelAmount() + "です");
+    System.out.println("残量は" + car.getFuelAmount() + "です");
   }
 }
