@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Break01",
+      "request": "launch",
+      "mainClass": "Java.Break01",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Chapter9",
+      "request": "launch",
+      "mainClass": "Java.chapter.Chapter9",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
       "name": "Launch ClassMethod3",
       "request": "launch",
       "mainClass": "ClassMethod3",
