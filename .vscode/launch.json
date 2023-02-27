@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Exception04",
+      "request": "launch",
+      "mainClass": "Exception04",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
       "name": "Launch Exception02",
       "request": "launch",
       "mainClass": "Exception02",
