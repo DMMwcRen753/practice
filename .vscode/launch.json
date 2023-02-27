@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Exception02",
+      "request": "launch",
+      "mainClass": "Exception02",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
+      "name": "Launch Exception01",
+      "request": "launch",
+      "mainClass": "Exception01",
+      "projectName": "practice_7c38f8c1"
+    },
+    {
+      "type": "java",
       "name": "Launch Chapter9",
       "request": "launch",
       "mainClass": "Chapter9",
@@ -66,14 +80,6 @@
       "request": "launch",
       "mainClass": "Greeting",
       "projectName": "practice_7c38f8c1"
-    },
-    {
-      "name": "Python: 現在のファイル",
-      "type": "python",
-      "request": "launch",
-      "program": "${file}",
-      "console": "integratedTerminal",
-      "justMyCode": true
     }
   ]
 }
