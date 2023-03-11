@@ -11,24 +11,24 @@ api_params1 = {
     # 実行するアクションをキーワード検索にする
     'action': 'query',
     # titleに格納された値を検索キーワードにする
-    'titles': 'title',
+    'titles': title,
     # 取得するデータをカテゴリの一覧にする
     'prop': 'categories',
     # 取得するデータの形式をJSONに指定
     'format': 'json'
 }
 # 検索キーワードにマッチしたページのデータをHTML形式で取得するためのクエリ情報
-api_paramsl2 = {
+api_params2 = {
     # 実行するアクションをキーワード検索にする
     'action': 'query',
     # titleに格納された値を検索キーワードにする
-    'titles': 'title',
+    'titles': title,
     # 'prop'の値を'revisions'にするとページのデータを取得できる
     'prop': 'revisions',
     # 'rvprop'の値を'content'にするとページの本文が取得できる
     'rvprop': 'content',
-    # 'format'に'xm1fm'を指定するとXMLをHTMLとして取得できる
-    'format': 'xm1fm'
+    # 'format'に'xmlfm'を指定するとXMLをHTMLとして取得できる
+    'format': 'xmlfm'
 }
 # APIのURLとカテゴリ一覧を取得するクエリ情報を引数にしてrequestsのget()関数を実行
 # get()関数の戻り値にjson()メソッドを適用して、JSON形式のデータとして取得する
@@ -68,7 +68,7 @@ if admit == 'yes':
     # yesが入力された場合
     # ヒットしたページをHTML形式で取得するためのクエリ情報を
     # 第2引数にしてget()関数を実行
-    data = requests.get(url, api_params1=api_paramsl2)
+    data = requests.get(url, params=api_params2)
     # ファイル名を「検索キーワード.html」として
     # 取得したデータをファイルに書き込む
     with open(title + '.html', 'w', encoding='utf_8') as f:
@@ -77,4 +77,3 @@ else:
     # yesが入力されなかった場合はメッセージを表示してプログラムを終了する
     print('プログラムを終了します')
     sys.exit()
-    
